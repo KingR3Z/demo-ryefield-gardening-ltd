@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Cath O'Sullivan", rating: 5, text: "We are delighted with our garden! From the outset Dan worked with us on the makeover. He listened to our ideas and how we wished to use the space and made lots of positive and creative suggestions - we felt it was a collaboration! …  +5 ", date: "5 years ago" },
+    { name: "David Britain", rating: 5, text: "Had a difficult area at the back of the garden. Badly overgrown and with large mounds of rubble and solid clay. Needed to be cleared so we could use the space for sheds and storage . …  ", date: "Edited 6 years ago" },
+    { name: "Terry Winchester", rating: 5, text: "From the start to the finish Dan did an excellent job. He was very friendly and informative when he gave us our original quote for a new patio and came up with loads of ideas. He showed us some different patio slabs and explained the …  ", date: "11 months ago" },
+    { name: "Becky & Laurence Filtness", rating: 5, text: "Excellent attention to detail and customer service from inspection through to completion of the job. Flower beds and garden cleared and laid to lawn. Labourers were professional and respectful of property. Office management was on point …  ", date: "3 years ago" },
+    { name: "Lee Griffiths", rating: 5, text: "Dan & Bill have done a great job in our garden, taking old decking up and laying a new patio and path with large porcelain slabs. The team then came and levelled the lawn out and re-turfed. Great team who work hard and take pride in their work, leavi", date: "4 years ago" },
+    { name: "Baxter Atkins", rating: 5, text: "Dan recently completed a total transformation in our garden. He worked with us to re-design our garden & continually updated us on the progress which included including Decking, porcelain paving, astro, raised planters & …  ", date: "4 years ago" },
+    { name: "Emma J", rating: 5, text: "I highly recommend Dan and his team. They carried out a shed and pond clearance, turfing and built a raised rockery. The garden has been transformed with their eye for detail, nothing was too much trouble and they left the job clean and tidy. Excelle", date: "5 years ago" },
+    { name: "Simon Jordan", rating: 5, text: "Huge thanks to Daniel and his team at Ryefield Gardening for the repairs made to our fencing at Silver Wharf after the recent storms. The high winds made one hell of a mess of the fencing surrounding our garden in the harbour. As we live in …  ", date: "9 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
